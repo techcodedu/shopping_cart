@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="sampleText">This is a sample text</p>
+    <button onclick="changeText()">Click to change the text</button>
+    <!-- new element -->
+    <br />
+    <br />
+    <div id="container"></div>
+    <button onclick="addElement()">Add Element</button>
+
+    <!-- remove element -->
+    <div id="newContainer">
+      <p id="textToRemove">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <button onclick=" removeElement()">Remove Element</button>
+
+    <!-- changing styles -->
+    <p id="styledText">Styled Text</p>
+    <button onclick="changeStyle()">Change Style</button>
+    <br />
+    <br />
+    <!-- for inputs -->
+    <input type="text" id="nameInput" placeholder="Enter your name" />
+    <button onclick="greetUser()">Greet</button>
+    <p id="display"></p>
+
+    <!-- toggle -->
+    <p id="hiddenText" style="display: none">This is invisible by default</p>
+    <button onclick="visibility()">Toggle Visibility</button>
+    <script src="/asset/script.js"></script>
+  </body>
+</html>
